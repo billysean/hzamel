@@ -1,0 +1,28 @@
+{
+  "name": "hzamel",
+  "private": true,
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.1.2",
+    "@tinymce/tinymce-vue": "^3.2.8",
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "emailjs-com": "^2.6.4",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-pwa": "^0.0.21",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "3.0",
+    "autoprefixer": "^9.8.6",
+    "node-sass": "^5.0.0",
+    "postcss": "^7.0.35",
+    "sass-loader": "^10.1.1",
+    "style-resources-loader": "^1.4.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2"
+  }
+}
