@@ -3,12 +3,18 @@
     <section class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto">
         <img
+          data-aos="fade-in"
+          data-aos-easing="ease-in-sine"
           class="lg:h-48 md:h-36 w-full object-cover object-center"
           src="../layouts/newlife.png"
           alt="blog"
         />
       </div>
-      <div class="flex flex-col">
+      <div
+        data-aos="fade-left"
+        data-aos-easing="ease-in-sine"
+        class="flex flex-col"
+      >
         <div class="flex overflow-x-scroll pb-10 hide-scroll-bar">
           <div class="flex flex-nowrap lg:ml-40 md:ml-20 ml-10">
             <div class="inline-block px-3">
@@ -191,7 +197,10 @@
                 <div
                   class="container px-5 py-5 mx-auto text-center image-center"
                 >
-                  <img src="../layouts/hans-melisa.png" class="justify-center" />
+                  <img
+                    src="../layouts/hans-melisa.png"
+                    class="justify-center"
+                  />
                   <div
                     class="
                       flex flex-col
